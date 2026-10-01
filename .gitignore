@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.venv/
+env/
+venv/
+ENV/
+
+# Build artifacts & distribution
+dist/
+build/
+*.egg-info/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases (ephemeral, re-seeded automatically by seed.py)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment & local configurations
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
